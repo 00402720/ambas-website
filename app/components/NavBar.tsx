@@ -8,7 +8,10 @@ export default function Navbar() {
 
   return (
     <header className="bg-gradient-to-b from-[#18FFF5] to-[#00B9B1] p-2 lg:px-8 lg:py-4 w-full">
-      
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      />
       {/* ======================
           TOP BAR
       ====================== */}
