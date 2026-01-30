@@ -101,7 +101,7 @@ export default function MainLayout({
             </div>
             <p className="mt-2 text-sm lg:text-md text-white">Desde 2024*</p>
         </div>
-        <div className="bg-[url('/godparent-nest.jpg')] bg-cover bg-center lg:bg-top w-full lg:h-fit 
+        <div className="bg-[url('/godparent-nest.JPG')] bg-cover bg-center lg:bg-top w-full lg:h-fit 
             flex flex-col items-left text-white text-center 
             "
         >

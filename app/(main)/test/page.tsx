@@ -8,7 +8,7 @@ export default function TestPage({
 }) {
   return (
       <>
-        <div className="bg-[url('/turtle-walk.jpg')] bg-cover bg-center w-full lg:h-screen 
+        <div className="bg-[url('/turtle-walk.JPG')] bg-cover bg-center w-full lg:h-screen 
             flex flex-col items-left justify-top text-white text-center
             py-16 px-8 
             lg:py-16 lg:px-32"

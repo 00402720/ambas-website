@@ -26,7 +26,7 @@ export default function Patrocinadores(){
                 </article>
             </section>
             <section>
-                <div className="bg-[url('/turtle-walk.jpg')] bg-cover bg-center w-full lg:h-fit 
+                <div className="bg-[url('/turtle-walk.JPG')] bg-cover bg-center w-full lg:h-fit 
                     flex flex-col items-left justify-top text-white text-center 
                     py-16 px-8 
                     lg:py-16 lg:px-20"

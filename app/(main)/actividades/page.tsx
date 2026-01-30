@@ -10,7 +10,7 @@ const images =[
 export default function Actividades(){
     return(
         <div>
-            <section className="bg-[url('/charla-hero.jpg')] bg-cover bg-center w-full h-fit lg:h-screen"
+            <section className="bg-[url('/charla-hero.JPG')] bg-cover bg-center w-full h-fit lg:h-screen"
             >
                 <div className="bg-black/30 w-full py-6 px-8 lg:py-16 lg:px-16 flex flex-col
                 lg:justify-start w-full h-fill lg:h-screen py-0 px-8 lg:py-16 lg:px-20 lg:!text-center lg:!justify-center"
