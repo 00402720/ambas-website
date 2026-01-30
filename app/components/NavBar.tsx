@@ -27,7 +27,7 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex w-full max-w-md justify-around text-white font-bold text-xl">
-          <a href="/">Misión</a>
+          <a href="/nosotros">Nosotros</a>
           <a href="/actividades">Actividades</a>
           <a href="/patrocinadores">Patrocinio</a>
         </nav>
@@ -77,7 +77,7 @@ export default function Navbar() {
         <nav className="lg:hidden flex flex-col items-center gap-4 text-white font-bold 
         text-lg fixed z-50 bg-gradient-to-b from-[#18FFF5] to-[#00B9B1] w-screen 
         left-0 top-15">
-          <a href="/" onClick={() => setMenuOpen(false)}>Misión</a>
+          <a href="/nosotros" onClick={() => setMenuOpen(false)}>Nosotros</a>
           <a href="/actividades" onClick={() => setMenuOpen(false)}>Actividades</a>
           <a href="/patrocinadores" onClick={() => setMenuOpen(false)}>Patrocinio</a>
         </nav>

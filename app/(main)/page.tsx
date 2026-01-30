@@ -38,10 +38,10 @@ export default function MainLayout({
             py-8 px-8 lg:py-16 lg:px-16 flex-row gap-4"
         >
             <article>
-                <h2 className="text-2xl lg:text-6xl text-left text-white align-text-bottom">AQUÍ EMPIEZA EL VIAJE DE</h2>
-                <div className="flex flex-row items-end gap-2 lg:gap-4">
-                    <CountUp end={100628} duration={1500} textSize="3xl lg:text-8xl" bold={true} align="left" />
-                    <h2 className="text-2xl lg:text-6xl  text-left text-white">TORTUGAS</h2>
+                <h2 className="text-3xl lg:text-6xl text-left text-white align-text-bottom">AQUÍ EMPIEZA EL VIAJE DE</h2>
+                <div className="flex flex-row items-center gap-2 lg:gap-4 ">
+                    <CountUp end={100628} duration={1500} textSize="4xl lg:text-7xl" bold={true} align="left" />
+                    <h2 className="text-3xl lg:text-6xl  text-left text-white !items-end">TORTUGAS</h2>
                 </div>
                 <p className="text-left text-sm"> 
                     Únete al cambio y ayúdanos a proteger la vida marina, restaurar nuestros
@@ -57,23 +57,23 @@ export default function MainLayout({
             py-8 px-4 
             lg:py-16 lg:px-16"
         >
-            <article className="flex flex-row justify-between">
-                <div className="flex flex-row lg:flex-col gap-2 lg:gap-0 justify-center lg:justify-left">
-                    <h2 className="text-2xl lg:text-8xl lg:mb-4 w-fit font-bold text-left text-white">CONOCE</h2>
-                    <h2 className="text-2xl lg:text-8xl lg:mb-4  text-left text-white">NUESTRO IMPACTO</h2>
+            <article className="flex flex-col lg:flex-row justify-between ">
+                <div className="flex flex-row lg:flex-col gap-2 lg:gap-0 justify-top lg:justify-left">
+                    <h2 className="text-2xl lg:text-6xl lg:mb-4 w-fit font-bold text-left text-white">CONOCE</h2>
+                    <h2 className="text-2xl lg:text-6xl lg:mb-4 w-fit text-left text-white">NUESTRO IMPACTO</h2>
                 </div>
                 <div className="flex mt-auto mb-8">
                     <IconButton
-                        label="Ver Reporte de Logros"
-                        icon={<span className="material-icons !text-4xl align-middle text-black">download</span>}
+                        label="Reporte de Logros"
+                        icon={<span className="material-icons !text-xl lg:!text-4xl align-middle text-black">download</span>}
                         href="/files/reporte-logros.pdf"
                         download="reporte-logros.pdf"
-                        className="lg:h-25 lg:w-fit"
+                        className="h-fit lg:h-25 lg:w-fit"
                         image="turtle-drawing-4.svg"
                     />
                 </div>
             </article>
-            <div className="items-center grid grid-cols-2 lg:flex lg:flex-col lg:flex-row gap-3 lg:gap-6 justify-center">
+            <div className="items-center grid grid-cols-2 lg:flex lg:flex-col lg:flex-row gap-3 lg:gap-6 justify-center flex-wrap">
                 <DataCard 
                 title="Nidos Protegidos" 
                 value={2983} 
@@ -101,8 +101,8 @@ export default function MainLayout({
             </div>
             <p className="mt-2 text-sm lg:text-md text-white">Desde 2024*</p>
         </div>
-        <div className="bg-[url('/godparent-nest.JPG')] bg-cover w-full lg:h-fit 
-            flex flex-col items-left text-white text-center
+        <div className="bg-[url('/godparent-nest.JPG')] bg-cover bg-center lg:bg-top w-full lg:h-fit 
+            flex flex-col items-left text-white text-center 
             "
         >
             <div className="
@@ -110,11 +110,11 @@ export default function MainLayout({
                 lg:justify-start h-full "
             >
                 <div className="flex flex-row lg:flex-row gap-2 lg:gap-4 justify-center lg:justify-left mb-80">
-                    <h2 className="text-2xl lg:text-8xl lg:mb-4 w-fit font-bold text-left text-white">APADRINA</h2>
-                    <h2 className="text-2xl lg:text-8xl lg:mb-4  text-left text-white">UN NIDO</h2>
+                    <h2 className="text-2xl lg:text-6xl lg:mb-4 w-fit font-bold text-left text-white">APADRINA</h2>
+                    <h2 className="text-2xl lg:text-6xl lg:mb-4  text-left text-white">UN NIDO</h2>
                 </div>
                 <div className="h-full w-full justify-center">
-                    <a href="/apadrina" className="bg-[#F03C2B] text-white px-4 py-8 rounded-lg 
+                    <a href="/apadrina" className="bg-[#F03C2B] text-white px-4 py-4 rounded-lg 
                         hover:bg-[#F03C2B] transition-colors
                         text-sm lg:text-lg"
                     >

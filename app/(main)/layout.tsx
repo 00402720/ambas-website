@@ -17,7 +17,7 @@ export default function MainLayout({
         <div className="w-full mx-auto flex flex-col md:flex-row justify-between">
           <div className="mb-4 md:mb-0">
             <h3 className="text-lg font-bold mb-2">Contacto</h3>
-            <p>Correo: contacto@ambas.org</p>
+            <p>Correo: ambassv356@ambas.org</p>
           </div>
           <div className="mb-4 md:mb-0">
             <h3 className="text-lg font-bold mb-2">Redes Sociales</h3>
